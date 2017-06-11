@@ -1,0 +1,8 @@
+{
+  "name": "Rinterest",
+  "private": true,
+  "dependencies": {
+    "imagesloaded": "^4.1.2",
+    "jquery": "^3.2.1"
+  }
+}

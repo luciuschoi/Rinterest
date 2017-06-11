@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<div class='posts grid'>
+  <div class='grid-sizer'></div>
+  <div class='gutter-sizer'></div>
+  <%= render @posts %>
+</div>
+
+<%= will_paginate @posts %>
+
+<%= link_to 'New Post', new_post_path %>
